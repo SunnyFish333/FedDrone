@@ -77,8 +77,8 @@ def process_split(src_dir: str, dst_dir: str, subset: str,
                                 y_min = float(parts[1])
                                 w = float(parts[2])
                                 h = float(parts[3])
+                                status = int(parts[4])
                                 cls_id = int(parts[5])
-                                status = int(parts[6])
                             except (ValueError, IndexError) as e:
                                 continue
 
