@@ -9,4 +9,4 @@ val集解压后标签图片分别放到目录：datasets/VisDrone2019/annotation
 
 终端运行 
 `cd datasets`
-`python datasets/prepare_VisDrone.py --tar`       
+`python prepare_VisDrone.py --tar`       
